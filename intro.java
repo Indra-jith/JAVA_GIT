@@ -10,7 +10,11 @@ Bytecode.
 
  *JDK (Java Development Kit)
  It helps us to develop Java applications, it contains JRE + development tools.
+
+ JVM JRE JDK are platform dependent because the configuration of each OS is different 
+ Howvever Java is platform independent.
  */
+
 public class intro{
     public static void main(String[] args) {
         System.out.println("Hello world");
