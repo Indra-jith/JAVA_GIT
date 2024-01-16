@@ -26,7 +26,5 @@ public class Variables {
         long num6 = 1321;
         boolean val = true;
         System.out.println(val);
-
-
     }
 }
