@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class temperature_with_input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
