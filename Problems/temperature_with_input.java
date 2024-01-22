@@ -6,5 +6,6 @@ public class temperature_with_input {
         float degree = scanner.nextFloat();
         float farheh = (degree*9/5)+32;
         System.out.println(degree+" degrees is equal to "+farheh+" farhenheit");
+        scanner.close();
     }
 }

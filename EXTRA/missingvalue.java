@@ -49,5 +49,6 @@ public class missingvalue {
             double x = (y-a)/b;
             System.out.println("Missing value x is equal to:"+x);
         }
+        scanner.close();
     }
 }
