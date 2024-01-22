@@ -57,7 +57,7 @@ public class operators_intro {
         
         int c = 5, d= 10;
         int e = 3, f = 1;
-        System.out.println("Logically comparing: "+((a<b)&&(e>f)));
+        System.out.println("Logically comparing: "+((c<d)&&(e>f)));
         //Since its true AND true , output is true aswell
         
     }
