@@ -35,5 +35,30 @@ public class operators_intro {
         System.out.println("Value after all the incrementing: "+num); //10
 
         //'='-> assingment operator
+
+        //---------------------------------------------------------------------------------------------
+
+        // Comparison Operators
+        // used to compare two values/variables
+
+        // >, <, >=, <=, ==, !=
+        
+        int a = 5;
+        int b = 7;
+        System.out.println("Comparing variables: "+(a > b));
+        //bool value (false) is returned in case of 5>7
+
+        //------------------------------------------------------------------------------------------------
+
+        //Logical operators
+        //two conditions to compare
+        // &&,  ||, !
+        // AND  OR NOT
+        
+        int c = 5, d= 10;
+        int e = 3, f = 1;
+        System.out.println("Logically comparing: "+((a<b)&&(e>f)));
+        //Since its true AND true , output is true aswell
+        
     }
 }
