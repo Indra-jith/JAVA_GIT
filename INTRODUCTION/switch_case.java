@@ -35,7 +35,12 @@ public class switch_case {
             // but apply in every case
             default:System.out.println("No class! LETSGO!");
         }
-
+        //EXTRA
+        // output= switch(day)
+        //{
+        //};//semi colon must
+        // can use case "Wednesday": yield System.out.println("
+        //without break if yield keyword is there
         System.out.println(output); //like this
     }
 }
