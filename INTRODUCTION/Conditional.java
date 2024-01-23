@@ -44,6 +44,22 @@ public class Conditional {
       {
         System.out.println(number1);
       }
+      //------------------------------------------------------------
+      int num = 41;
+      if(num%2==0)
+      {
+        System.out.println("Number is even");
+      }
+      else
+      {
+        System.out.println("Number is odd");
+      }
+      //--------------------------------------------------------------
+      //OR -> TERNARY OPERATOR
+      String output = num % 2 ==0 ? "Number is even" : "Number is odd";
+      //string because the output we are putting is a string
+      // int output = num % 2 ==0 ? 1 : 0;
+      System.out.println(output);
 
 }
 }
