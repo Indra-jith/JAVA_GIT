@@ -1,44 +1,46 @@
 public class loops {
     public static void main(String[] args) {
-        //-----------------------------------------------------------------
-        //WHILE loop
-        /*while(//condition)
-        {
-            //code
-        }
-        */
+        // -----------------------------------------------------------------
+        // WHILE loop
+        /*
+         * while(//condition)
+         * {
+         * //code
+         * }
+         */
         // int i = 0;
         // while(i<5)
         // {
-        //     System.out.println("Hello world "+i); //will print hello world 5 times
-        //     i++; // from 0 to 4
-        //     //once it becomes 5 the loop stops
+        // System.out.println("Hello world "+i); //will print hello world 5 times
+        // i++; // from 0 to 4
+        // //once it becomes 5 the loop stops
         // }
-        //-------------------------------------------------------------------
-        //DO WHILE 
+        // -------------------------------------------------------------------
+        // DO WHILE
         // run code once then only it checks the condition
 
-        /*do{
-            //code
-    
-        } while(//condition)
-        */
+        /*
+         * do{
+         * //code
+         * 
+         * } while(//condition)
+         */
         // int i = 0;
         // do{
-        //     System.out.println("Hello world "+i); //will print hello world 5 times
-        //     i++;
+        // System.out.println("Hello world "+i); //will print hello world 5 times
+        // i++;
         // }while(i<5);
-        //--------------------------------------------------------------------
-        //FOR LOOP
+        // --------------------------------------------------------------------
+        // FOR LOOP
         /*
-         for(starting condn;condition;increment/decrement)
-         {
-            //content
-         }
+         * for(starting condn;condition;increment/decrement)
+         * {
+         * //content
+         * }
          */
         // for(int i=0;i<5;i++)
         // {
-        //     System.out.println("Hello world "+i);
+        // System.out.println("Hello world "+i);
         // }
     }
 }

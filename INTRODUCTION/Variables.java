@@ -27,13 +27,13 @@ public class Variables {
         // boolean val = true;
         // System.out.println(val);
 
-         /*
-         TYPECASTING -> two types
-                One happens automatically (smaller to larger) [byte->short->int->long]
-                *smaller box fits in larger box automatically -> WIDENING CASTING
-                One happens manually (example: long->int->short->byte)
-                NARROWING CASTING
-        */
+        /*
+         * TYPECASTING -> two types
+         * One happens automatically (smaller to larger) [byte->short->int->long]
+         * smaller box fits in larger box automatically -> WIDENING CASTING
+         * One happens manually (example: long->int->short->byte)
+         * NARROWING CASTING
+         */
 
         // int myInt = 10;
         // double myDouble = myInt; //automatic casting
@@ -41,9 +41,8 @@ public class Variables {
 
         double myDouble = 3.14567;
         // int myInt = myDouble; //error (we have to do it forcefully)
-        int myInt = (int) myDouble; //--> FORCED/MANUAL/NARROWING
-        System.out.println(myInt); //3
+        int myInt = (int) myDouble; // --> FORCED/MANUAL/NARROWING
+        System.out.println(myInt); // 3
 
     }
 }
-
