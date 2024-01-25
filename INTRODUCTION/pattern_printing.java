@@ -95,14 +95,9 @@ public class pattern_printing {
             }
             System.out.print("\n");
         }
-
+        System.out.print("\n");
         /*
-         * 
-         * * * * *
-         * * * *
-         * * *
-         * *
-         *
+         * (upside down pyramid)
          */
 
         for (int i = 0; i < 5; i++) {
