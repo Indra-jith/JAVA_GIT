@@ -71,5 +71,12 @@ public class Arrays_intro { // if class(not public), we can use any class
             sum += array[i];
         }
         System.out.println(sum);
+
+        // alt way -> for loop
+
+        for (float i : array) {
+            System.out.println(i);// for printing all elements
+        }
+
     }
 }
