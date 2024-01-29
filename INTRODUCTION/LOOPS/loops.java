@@ -42,5 +42,12 @@ public class loops {
         // {
         // System.out.println("Hello world "+i);
         // }
+
+        for (int i = 0; i < 10; i++) {
+            // if (i == 5) break;// jump out of the loop
+            if (i == 5)
+                continue; // skips 5 and prints the rest
+            System.out.println(i);
+        }
     }
 }
