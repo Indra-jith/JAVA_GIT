@@ -42,9 +42,31 @@ public class multidimensional_arrays {
             }
             System.out.println();
         }
+        System.out.println();
         // output
         // 1 2 3
         // 4 . 6
         // 7 8 9
+
+        // PRINT ALL ELEMENTS BELOW DIAGONAL
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = 0; j < arr2[0].length; j++) {
+                if (i < j)
+                    break;
+                else {
+                    System.out.print(arr2[i][j] + " ");
+                }
+            }
+            System.out.println();
+        }
+        // output
+        // 1
+        // 4 5
+        // 7 8 9
+
+        // swap first row with last row of array
+        // replace all the negative elements of array with 0
+        // find max element in array and print
+        // sum of each row in an array
     }
 }
