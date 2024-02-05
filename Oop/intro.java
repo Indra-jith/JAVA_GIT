@@ -47,19 +47,34 @@ public class intro {
          * (It is created in a random address)
          * THEREFORE A REFERENCE VARIABLE IS CREATED IN STACK
          */
-        Calculate obj = new Calculate(); // pointing towards type calculate (and towards a new Calculate object)
-        // obj is reference towards the object
-        obj.test();
-        int v = obj.sub(); // because it is returning something
-        System.out.println(v); // 99
-        int sum = obj.add(1, 2);
-        System.out.println(sum); // 3
+        // Calculate obj = new Calculate(); // pointing towards type calculate (and
+        // towards a new Calculate object)
+        // // obj is reference towards the object
+        // obj.test();
+        // int v = obj.sub(); // because it is returning something
+        // System.out.println(v); // 99
+        // int sum = obj.add(1, 2);
+        // System.out.println(sum); // 3
         // METHOD OVERLOADING -> according to datatype of argument function changes (
         // SAME NAME
+        // When a class has multiple methods with same name but different parameters
+        // It can be done by
+        // * By changing the name of arguments
+        // * By changing the data type
         // (same name of method with different type of parameters))
-        double sum1 = obj.add(1.001, 2.001);
-        System.out.println(sum1);
-        int sum2 = obj.add(1, 2, 3);
-        System.out.println(sum2);
+        // double sum1 = obj.add(1.001, 2.001);
+        // System.out.println(sum1);
+        // int sum2 = obj.add(1, 2, 3);
+        // System.out.println(sum2);
+
+        int num1 = 5;
+        int num2 = 10;
+        int num5 = 7;
+        double num3 = 4.4;
+        double num4 = 5.7;
+        Calculate obj1 = new Calculate();
+        var output = obj1.add(num1, num4);
+        System.out.println(output);
+
     }
 }
