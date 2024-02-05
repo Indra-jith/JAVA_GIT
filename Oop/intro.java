@@ -17,6 +17,14 @@ class Calculate { // template(blueprint) just define how calculation is going to
         return a + b;
     }
 
+    public double add(double a, double b) { // local variable restricted to scope,so can be reused
+        return a + b;
+    }
+
+    public int add(int a, int b, int c) { // same name not a problem, it'll be overloading
+        return a + b + c;
+    }
+
     // public void test() {
     // System.out.println("From test");
     // }
@@ -46,5 +54,12 @@ public class intro {
         System.out.println(v); // 99
         int sum = obj.add(1, 2);
         System.out.println(sum); // 3
+        // METHOD OVERLOADING -> according to datatype of argument function changes (
+        // SAME NAME
+        // (same name of method with different type of parameters))
+        double sum1 = obj.add(1.001, 2.001);
+        System.out.println(sum1);
+        int sum2 = obj.add(1, 2, 3);
+        System.out.println(sum2);
     }
 }
