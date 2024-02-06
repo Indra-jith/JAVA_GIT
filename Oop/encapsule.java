@@ -30,8 +30,11 @@ class Bank {
         return myName;
     }
 
-    public void setName(String name) { // to change name
-        myName = name;
+    public void setName(String myName, Bank obj) { // to change name
+        Bank obj1 = obj;
+        obj1.myName = myName;
+        // This all should be used without "this" keyword
+        // better to use this
     }
 
 }
@@ -47,7 +50,7 @@ public class encapsule {
         // obj1.amount = 50; | !!!
 
         System.out.println(obj1.getAccNumber() + " " + obj1.getName() + " ");
-        obj1.setName("Hello");
+        obj1.setName("Hello", obj1);
         System.out.println(obj1.getAccNumber() + " " + obj1.getName() + " ");
     }
 }
