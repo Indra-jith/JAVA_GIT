@@ -68,9 +68,9 @@ public class intro {
         // System.out.println(sum2);
 
         int num1 = 5;
-        int num2 = 10;
-        int num5 = 7;
-        double num3 = 4.4;
+        // int num2 = 10;
+        // int num5 = 7;
+        // double num3 = 4.4;
         double num4 = 5.7;
         Calculate obj1 = new Calculate();
         var output = obj1.add(num1, num4);
