@@ -10,6 +10,11 @@ class Bank {
     }
 
     public void setAccNumber(int accNumber) {
+        // "this keyword" (when same name for instance variable and local variable)
+        // accNumber = accNumber -> X -> it will consider both as local variable only
+        // (priorities!)
+
+        // for this reason this. is used
         this.accNumber = accNumber;
     }
 
@@ -46,3 +51,7 @@ public class encapsule {
         System.out.println(obj1.getAccNumber() + " " + obj1.getName() + " ");
     }
 }
+
+// It provides control over the data
+// It is a way of achieving data hiding because other classes won't be able to
+// access the data through private data member
