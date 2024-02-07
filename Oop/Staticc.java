@@ -10,6 +10,12 @@ class Student {
   public void output() {
     System.out.println(studentName + " " + rollNo + " " + universityName);
   }
+
+  public static void myStaticMethod(){
+	System.out.println("From static method" + " " +universityName); //can only add static variable inside a static method
+	//if you want to call a static you should specify obj as a parameter
+	//public static void myStaticMethod(obj b1){ and provide in main method
+  }
 }
 
 // Static keyword -> for memory management
@@ -30,6 +36,7 @@ public class Staticc {
 
     s1.output();
     s2.output();
+	Student.myStaticMethod(); //No need of object
   }
 }
 
@@ -46,5 +53,5 @@ public class Staticc {
 	- Instance variables can be accessed directly by calling variable name inside the class
 	- Static variables can be accessed by calling with the class name
 
-	
+
 */
