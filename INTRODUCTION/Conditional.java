@@ -1,4 +1,5 @@
 public class Conditional {
+
   public static void main(String[] args) {
     int num1 = 15;
     if (num1 < 10) {
@@ -48,6 +49,5 @@ public class Conditional {
     // string because the output we are putting is a string
     // int output = num % 2 ==0 ? 1 : 0;
     System.out.println(output);
-
   }
 }
