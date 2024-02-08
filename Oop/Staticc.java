@@ -34,6 +34,11 @@ public class Staticc {
     s2.rollNo = 2;
     // s2.universityName = "LPU"; // same
 
+    Student s3 = new Student();
+    s3.studentName = "Anil";
+    s3.rollNo = 66;
+    //no need to even put univeristy name
+
     s1.output();
     s2.output();
 	Student.myStaticMethod(); //No need of object
