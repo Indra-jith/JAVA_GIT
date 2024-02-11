@@ -75,6 +75,6 @@ public class intro {
         Calculate obj1 = new Calculate();
         var output = obj1.add(num1, num4);
         System.out.println(output);
-
+        System.out.println((char)('A'+1));
     }
 }
