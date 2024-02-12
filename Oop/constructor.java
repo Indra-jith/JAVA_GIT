@@ -44,7 +44,14 @@ class Person{
         this.age = age;
     }
 
-    //COPY CONSTRUCTOR
+    //COPY CONSTRUCTOR -> used to copy(replicate) all values from an object
+    // OF SAME CLASS //
+    public Person(Person obj)
+    {
+        name = obj.name;
+        age = obj.age;
+        mob = obj.mob;
+    }
 //-----------------------------------------------------------
     public void output(){
         System.out.println("Name : "+name+" Age : "+age+" Mob : "+mob);
@@ -63,5 +70,7 @@ public class constructor{
         Person p3 = new Person("Moshi",21);
         p3.output(); // mob will be 0
 
+        Person p4 = new Person(p2); // Now p2 and p4 will be having same values
+        p4.output();
     }
 }
