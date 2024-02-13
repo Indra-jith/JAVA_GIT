@@ -2,7 +2,7 @@ class Student {
 
   public String studentName;
   public int rollNo;
-  public static String universityName; // same for every student so "static"
+  public static String universityName = "LPU";// same for every student so "static"
 
   // common entity shared by all objects of class
   // public and static are interchangeable
@@ -27,7 +27,7 @@ public class Staticc {
     Student s1 = new Student();
     s1.studentName = "Karthik";
     s1.rollNo = 1;
-    s1.universityName = "LPU"; // same, just this one is enough(because of static keyword)
+    // s1.universityName = "LPU"; // same, just this one is enough(because of static keyword)
 
     Student s2 = new Student();
     s2.studentName = "Tanish";

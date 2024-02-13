@@ -34,5 +34,6 @@ public class loop2{
                 System.out.println(i);
             }
         }
+        scanner.close();
     }
 }
