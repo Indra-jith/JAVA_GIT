@@ -45,6 +45,9 @@ public class intro_strings {
      * This makes java "MEMORY EFFICIENT", because no new objects are created if it
      * already exists in the String Constant Pool
      */
+    System.out.println(firstName.length()); // 2
+    System.out.println(firstName.charAt(1));// e
+    System.out.println(lastName.replace("ello", "We"));
 
   }
 }
