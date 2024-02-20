@@ -77,10 +77,9 @@ class B {
     }
 }
 
-class C extends A,B{ //will become confusing which print (a or b)
-//not possible (multiple inheritance)
-}
-
+// class C extends A,B{ //will become confusing which print (a or b)
+// not possible (multiple inheritance)
+// }
 
 public class inheritance {
     public static void main(String[] args) {
