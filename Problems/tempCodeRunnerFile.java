@@ -1,1 +1,0 @@
-        c1.setVehicleDetails("HONDA", 250);

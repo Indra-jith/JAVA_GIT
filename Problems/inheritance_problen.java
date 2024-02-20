@@ -59,6 +59,7 @@ class Bicycle extends Vehicle {
 public class inheritance_problen {
     public static void main(String[] args) {
         Vehicle v1 = new Vehicle();
+        v1.setVehicleDetails("ABC", 0);
 
         Car c1 = new Car(7);
         c1.setVehicleDetails("HONDA", 250);
