@@ -7,6 +7,7 @@ class A {
     }
 
     public A(int n) {
+        super();
         System.out.println("From A int");
     }
 }
@@ -18,7 +19,7 @@ class B extends A {
     }
 
     public B(int n) {
-        super(n);
+        this(); // it is there even if its not there
         System.out.println("From B int");
     }
 }
@@ -26,7 +27,7 @@ class B extends A {
 public class super_ {
     public static void main(String[] args) {
         B b = new B(); // calls both B and A
-        B bb = new B(5);
+        B bb = new B(5); // calls only parameterized
 
     }
 }
