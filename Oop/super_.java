@@ -28,6 +28,8 @@ public class super_ {
     public static void main(String[] args) {
         B b = new B(); // calls both B and A
         B bb = new B(5); // calls only parameterized
+        System.out.println(b);
+        System.out.println(bb);
 
     }
 }
