@@ -19,7 +19,9 @@ public class functional_interfaces {
         // };
 
         // lambda expressions
-        A obj = () -> System.out.println("From B");
+        A obj = () -> {
+            System.out.println("From B");
+        };
         obj.display();
     }
 }
