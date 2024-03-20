@@ -37,7 +37,7 @@ public class threads {
         // min priority - max priority (1 to 10)
 
         // to change priority (we can only optimize it, not change the algo)
-        obj1.setPriority(Thread.MAX_PRIORITY);
+        obj1.setPriority(Thread.MAX_PRIORITY); // 10
         obj1.start(); // use start
         try {
             Thread.sleep(10);
