@@ -1,6 +1,7 @@
 /*
  * Abstract classes - you can't create ab object of that class 
  * abstract methods in a class should be implemented in sub classes (mandatory)
+ * we can define methods and declare abstract methods
  */
 
 /*
@@ -10,6 +11,7 @@
 
    Advantage - multiple inheritance possible only in interface
    class A implements interface1,interface2
+   we can only declare methods  
  */
 
 interface Animal1 {
