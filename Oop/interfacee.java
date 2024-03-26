@@ -23,5 +23,6 @@ public class interfacee {
         d1.eating(v1);
         Nonveg n1 = new Nonveg();
         // d1.eating(n1); // error
+        n1.eat();
     }
 }
