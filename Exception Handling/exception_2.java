@@ -33,6 +33,7 @@ public class exception_2 {
         }
         // finally block -> gets executed regardless of whether exception occurs/handled
         // or not
+        // for each try block, only ONE finally block
         finally {
             System.out.println("Undefeated");
         }
