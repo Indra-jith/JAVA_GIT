@@ -22,6 +22,7 @@ public class exception_2 {
     public static void main(String[] args) {
         try {
             int arr[] = new int[5];
+            arr[0] = 11;
             // arr[6] = 100 / 1;
         } catch (ArithmeticException e) {
             System.out.println("In arithmetic block");
