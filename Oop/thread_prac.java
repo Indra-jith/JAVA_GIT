@@ -60,10 +60,10 @@ class Main {
         Scanner sc = new Scanner(System.in);
         String d = sc.nextLine();
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-        LocalDateTime DATE = LocalDateTime.parse(d, dtf)
+        LocalDateTime DATE = LocalDateTime.parse(d, dtf);
         System.out.println(DATE);
         // ZonedDateTime zdt = ZonedDateTime.of(DATE,)
         // ZoneDateTime zdt = ZonedDateTime
-        
+
     }
 }
