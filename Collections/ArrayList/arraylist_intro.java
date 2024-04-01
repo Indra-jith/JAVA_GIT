@@ -43,12 +43,30 @@ public class arraylist_intro {
         list1.remove("Earth");
         System.out.println("Modified after deleting the elements : " + list1);
 
-        ArrayList list3 = new ArrayList();
-        // you can choose to not give a type to ArrayList
-        // then you can add multiple data types
-        list3.add("mercury");
-        list3.add(1);
-        System.out.println("without specifying data type : " + list3); // but they will give warning
+        // ArrayList list3 = new ArrayList();
+        // // you can choose to not give a type to ArrayList
+        // // then you can add multiple data types
+        // list3.add("mercury");
+        // list3.add(1);
+        // System.out.println("without specifying data type : " + list3); // but they
+        // will give warning
 
+        // size -> .size()
+        System.out.println("ArrayList size : " + list1.size());
+
+        // clone (create a copy) .clone()
+        ArrayList<String> list11 = (ArrayList<String>) list1.clone();
+        System.out.println("Cloned list : " + list11);
+
+        // checks if an element is there
+        System.out.println("List contains Mars : " + list1.contains("Mars"));
+
+        // checks is list is empty
+        System.out.println("Is list empty? : " + list1.isEmpty());
+
+        // iterating on list1
+        for (String st : list1) {
+            System.out.println(st);
+        }
     }
 }
