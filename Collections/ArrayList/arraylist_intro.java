@@ -20,7 +20,7 @@ public class arraylist_intro {
 
         // USE WRAPPER CLASSES FOR PRIMITIVE DATA TYPES
         // example :
-        ArrayList<Integer> list2 = new ArrayList<>();
+        // ArrayList<Integer> list2 = new ArrayList<>();
 
         System.out.println("Original : " + list1);
         list1.add("Mercury");
@@ -55,8 +55,8 @@ public class arraylist_intro {
         System.out.println("ArrayList size : " + list1.size());
 
         // clone (create a copy) .clone()
-        ArrayList<String> list11 = (ArrayList<String>) list1.clone();
-        System.out.println("Cloned list : " + list11);
+        // ArrayList<String> list11 = (ArrayList<String>) list1.clone();
+        // System.out.println("Cloned list : " + list11);
 
         // checks if an element is there
         System.out.println("List contains Mars : " + list1.contains("Mars"));
