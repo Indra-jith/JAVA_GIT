@@ -26,3 +26,17 @@ public class linked_list_intro {
     }
 
 }
+
+/*
+ * LinkedList
+ * -> emplements List,Queue, and Dequeue interface
+ * -> Stores 3 values (prev add, data next add)
+ * -> Provides doubly LinkedList implementation
+ * -> When an element is added, previous and next address are changed
+ * 
+ * ArrayList
+ * -> implements List Interface
+ * -> Stores single value
+ * -> Provides resizable array implementation
+ * -> When an element is added, all the elements after that position is shifted
+ */
