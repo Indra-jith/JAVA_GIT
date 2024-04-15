@@ -15,7 +15,8 @@ public class data_time_intro {
         LocalDateTime datetime = LocalDateTime.now();
         System.out.println(datetime);
         System.out.println("Before formatting : " + datetime);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss -a G");
+        // Can customize it anyway (refer documentations for format)
         System.out.println("After formatting " + datetime.format(formatter));
     }
 }
