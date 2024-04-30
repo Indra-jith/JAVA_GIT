@@ -11,8 +11,8 @@ public class treeset {
         System.out.println(set1); // ordered order [2,3,8]
 
         TreeSet<Integer> set2 = new TreeSet();
-        set2.add(5);
-        set1.addAll(set2);
+        set2.add(8);
+        set1.removeAll(set2);
         System.out.println(set1);
     }
 }
