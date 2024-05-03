@@ -21,11 +21,7 @@ public class anonymousInner {
         // Instead do this
         A obj = new A() {
             void print() {
-                System.out.println("Hey");
-            }
-
-            void run() {
-                System.out.println("Running fast");
+                System.out.println("hey");
             }
         };
         // Can do this instead of creating another class
