@@ -30,5 +30,8 @@ public class prac {
             System.out.println("No elements removed");
         }
         System.out.println(list);
+        list.add();
+        ArrayDeque<String> ard = new ArrayDeque<>();
+        
     }
 }
